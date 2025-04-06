@@ -1,13 +1,13 @@
 import "./App.css";
 import Dashbord from "./Components/dashboard/Dashbord.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout/Layout.jsx";
 import Profile from "./Components/dashboard/Profile.jsx";
 import Settings from "./Components/dashboard/Settings.jsx";
 import { HashRouter as Router } from "react-router-dom";
 
-function App() {
+function index() {
   return (
     <>
       <Router>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default index;
