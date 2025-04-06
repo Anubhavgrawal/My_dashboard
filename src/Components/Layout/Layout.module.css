@@ -1,0 +1,11 @@
+.sidebar{
+   display: flex;
+}
+.dashboard{
+  /* padding: 20px; */
+  width: 100%;
+  
+}
+.main_container{
+  display:flex;
+}
