@@ -5,12 +5,12 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout/Layout.jsx";
 import Profile from "./Components/dashboard/Profile.jsx";
 import Settings from "./Components/dashboard/Settings.jsx";
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 function index() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashbord />} />
@@ -18,7 +18,7 @@ function index() {
             <Route path="settings" element={<Settings />} />
           </Route>
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 }
