@@ -7,7 +7,7 @@ import Profile from "./Components/dashboard/Profile.jsx";
 import Settings from "./Components/dashboard/Settings.jsx";
 import { HashRouter } from "react-router-dom";
 
-function Index() {
+function App() {
   return (
     <>
       <HashRouter>
@@ -23,4 +23,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default App;
